@@ -1,0 +1,39 @@
+The STL files in this folder can be printed to construct the frame for our 
+Q-learning robot. With these parts, you have the option to build it with N20 
+geared DC motors, as shown in the animations in the article, or with 28byj 
+geared stepper motors. Other motors can be used, but you'll have to make your
+own mounts. 
+
+For a DC motor build, print the following:
+- Qbot frame
+- Qbot NEMA11 holder
+- Qbot lidar stalk
+- Qbot lidar sensor  
+- Qbot motor brace for N20 motors
+- Qbot wheel for N20 DC motors (x2)
+
+You will also need a third wheel.  I used a 'ball caster', available on 
+Amazon or eBay. Mine has a 40mm spacing between the mounting holes to line
+up with the lidar motor mount holes.  You can use something else and drill
+new holes, or print the "Qbot third wheel" part for a static skid-style
+third wheel.
+
+For a 28byj build, just swap out the N20 motor brace and N20 wheels for a 
+pair of 28byj wheels and a pair of 28byj brackets.
+
+I printed my parts with 0.2mm layer height and 30% infill on an Original 
+Prusa i3 Mk3 printer. Your printer will be a little different, but about the 
+only thing that would vary would be interior holes for fasteners - just drill
+them out if they don't fit.
+
+The robot was designed to be assembled with M3 hardware.  You can use 
+something else, just widen the holes to fit and make sure the bolts don't 
+interfere with movement if you substitute longer bolts.  
+
+Don't be afraid to hack/modify/copy these parts to suit your build.  They're
+designed to suit my particular needs and ideas, and yours might be different.
+Experiment!
+
+Email us with questions - it's why we're here:
+Hardware - jeff@jvon.org
+Software - michael@jvon.org
